@@ -150,7 +150,7 @@ function App() {
 
           </div>
 
-          <div className="mt-8 lg:pl-12 lg:py-6 w-full lg:w-1/2">
+          <div className="mt-7 lg:pl-12 lg:py-6 w-full lg:w-1/2">
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left font-serif" id="Blog">
               My Blog
             </h1>
