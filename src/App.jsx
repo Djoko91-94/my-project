@@ -164,6 +164,34 @@ function App() {
 
         </div>
       </section>
+
+      {/* footer*/}
+      <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-screen-xl mx-auto px-6 flex justify-between items-start">
+          <div class="footer-links space-y-4">
+            <ul class="list-none">
+              <li><a href="/about" class="hover:text-orange-500">À propos</a></li>
+              <li><a href="/contact" class="hover:text-orange-500">Contact</a></li>
+              <li><a href="/privacy-policy" class="hover:text-orange-500">Politique de confidentialité</a></li>
+              <li><a href="/terms" class="hover:text-orange-500">Conditions d'utilisation</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials space-x-6">
+            <a href="https://facebook.com" class="text-white text-xl hover:text-orange-500">Facebook</a>
+            <a href="https://instagram.com" class="text-white text-xl hover:text-orange-500">Instagram</a>
+            <a href="https://twitter.com" class="text-white text-xl hover:text-orange-500">Twitter</a>
+          </div>
+          <div class="footer-newsletter flex flex-col space-y-4">
+            <p class="text-lg">Abonnez-vous à notre newsletter</p>
+            <form action="#" class="flex flex-col space-y-3">
+              <button type="submit" class="px-6 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-500">S'abonner</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom text-center mt-6">
+          <p>&copy; 2025 Mon Site Web - Tous droits réservés</p>
+        </div>
+      </footer>
     </>
   );
 }
