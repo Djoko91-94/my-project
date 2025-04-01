@@ -71,8 +71,8 @@ function App() {
       </header>
 
       <section className="text-gray-700" id="home">
-        <div className="flex container mx-auto py-20 px-5 flex-col md:flex-row items-center font-serif">
-          <div className="md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left">
+        <div className="flex flex-col md:flex-row items-center container mx-auto py-20 px-5 space-y-8 md:space-y-0 md:space-x-12 font-serif">
+          <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 font-medium mb-4 font-serif">
               HI!
               <br />
@@ -87,8 +87,8 @@ function App() {
               Contact
             </button>
           </div>
-          <div className="md:w-1/2 lg:max-lg w-5/6">
-            <img src={myimage} alt="DjokoCode" className="rounded-lg shadow-lg" />
+          <div className="md:w-1/2 w-5/6">
+            <img src={myimage} alt="DjokoCode" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
         </div>
       </section>
@@ -133,7 +133,7 @@ function App() {
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0 flex justify-center">
             <img src="https://t4.ftcdn.net/jpg/02/66/07/83/360_F_266078398_vXlKFR2KDOj8bpsly1lduNbvaDrZGMY2.jpg"
               alt="Profile"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full h-auto"
             />
           </div>
           <div className="w-full lg:w-1/2 lg:pl-12 lg:py-6">
