@@ -176,9 +176,9 @@ function App() {
             </ul>
           </div>
           <div className="footer-socials space-x-6">
-            <a href="https://www.facebook.com/brayanne.christy/" className="text-white text-xl hover:text-orange-500">Facebook</a>
-            <a href="https://twitter.com/DjokoTayem" className="text-white text-xl hover:text-orange-500">Twitter</a>
-            <a href="https://www.instagram.com/djokotayem/" className="text-white text-xl hover:text-orange-500">Instagram</a>
+            <a href="" className="text-white text-xl hover:text-orange-500">Facebook</a>
+            <a href="" className="text-white text-xl hover:text-orange-500">Twitter</a>
+            <a href="" className="text-white text-xl hover:text-orange-500">Instagram</a>
           </div>
         </div>
       </footer>
